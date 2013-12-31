@@ -1,10 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'hornetseye-ffmpeg'
-gem 'hornetseye-xorg'
-gem 'hornetseye-v4l2'
-gem 'hornetseye-rmagick'
-gem 'wirble'
-gem 'chunky_png'
-gem 'rspec'
-gem 'pry'
+gemspec
