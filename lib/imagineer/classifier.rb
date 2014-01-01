@@ -12,6 +12,14 @@ module Imagineer
       Coordinate.new(x, y)
     end
 
+    def brightest_pixel_is_on_left?
+      brightest_pixel.x < (width/2)
+    end
+
+    def brightest_pixel_is_on_right?
+      !brightest_pixel_is_on_left?
+    end
+
     def brightest_value
       @image.pixels.max
     end
